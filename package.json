@@ -1,0 +1,31 @@
+{
+  "name": "sinon-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc src/index.ts",
+    "test": "cross-env TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\" }' mocha -r ts-node/register -r ignore-styles -r jsdom-global/register src/**/*.spec.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.1.6",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.3",
+    "@types/sinon": "^5.0.1",
+    "chai": "^4.1.2",
+    "chalk": "^2.4.1",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "ignore-styles": "^5.0.1",
+    "jsdom": "^11.11.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.0.0",
+    "ts-node": "^7.0.0"
+  }
+}
